@@ -1,6 +1,6 @@
 ﻿## PowerShell ETL: Breweries
 
-$file=(get-content C:\Users\G\OneDrive\Tech\ETL\target\shakeshack.csv)
+$file=(get-content C:\Users\...\...\target\shakeshack.csv)
 
 set-variable -name "iterations" -value ($file | Measure-Object -Line)
 
