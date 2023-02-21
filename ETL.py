@@ -1,7 +1,7 @@
 ## Python ETL: Shake-Shack
 
-target_path = 'C:/Users/a/OneDrive/Tech/ETL/target/Shake-Shack.csv'
-output_path = 'C:/Users/a/OneDrive/Tech/ETL/output/Shake-Shack.txt'
+target_path = 'C:/Users/.../.../target/Shake-Shack.csv'
+output_path = 'C:/Users/.../.../output/Shake-Shack.txt'
 
 def file_len(target_path):
     with open(target_path) as f:
@@ -31,7 +31,7 @@ import linecache
 
 i = i +1
 
-	theline = linecache.getline('C:/Users/a/OneDrive/Tech/ETL/target/Shake-Shack.csv', i)
+	theline = linecache.getline('C:/Users/.../.../target/Shake-Shack.csv', i)
 	latitude = theline.split(",")[0]
 	longitude = theline.split(",")[1]
 	location = theline.split(",")[2]
