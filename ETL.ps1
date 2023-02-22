@@ -1,4 +1,4 @@
-﻿## PowerShell ETL: Breweries
+﻿## PowerShell ETL: Shake Shack
 
 $file=(get-content C:\Users\...\...\target\shakeshack.csv)
 
